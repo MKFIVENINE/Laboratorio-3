@@ -1,0 +1,217 @@
+/*Global*/
+*{
+	font-family: "Latolight";
+}
+
+@font-face{
+	font-family: LatoHeavy;
+	src: url(../fonts/LatoHeavy.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(../fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(../fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(../fonts/Neoteric-Bold.ttf);
+}
+
+/* Shortcuts */
+
+.pd-0{
+	padding: 0;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.pb-7{
+	padding-bottom: 7%;
+}
+.mg-0{
+	margin: 0;
+}
+.mg-10{
+	margin: 30px;
+}
+.px-6 {
+	padding-left: 6rem;
+	padding-right: 6rem;
+}
+.w-100{
+	width: 100%;
+}
+.w-10 {
+	width: 10%;
+}
+.lh{
+	line-height: 1.5;
+}
+.lh2{
+	line-height: 2;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-light-gray {
+	color: #aaa;
+}
+.text-gray{
+	color: rgb(83, 88, 95);
+}
+.text-blue{
+ 	color: #192951;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-white {
+	background-color: white;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-gray3{
+	background-color: #ddd;
+}
+.bg-blue {
+	background-color: #192951;
+}
+.bg-gray2{
+	background-color: rgba(0, 0, 0,0.3);
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mx-10 {
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+.btn-dark-blue {
+	color: white;
+	border-radius: 0;
+	background-color: #070f27;
+}
+.btn-dark-blue:hover, .btn-blue:hover {
+	background-color: #17295f;
+	color: white;
+}
+.btn-blue {
+	border-radius: 1;
+	color: white;
+	background-color: #192951;
+}
+.p-5 {
+	padding: 5rem !important;
+}
+.vw-50 {
+	width: 50vw;
+}
+.vh-20 {
+	height: 20vw;
+}
+.texture-1 {
+	background: url(../img/textura_2.jpg);
+}
+.texture-2 {
+	background: url(../img/cubes.png);
+}
+.border-blue {
+	border-color: #17295f !important;
+}
+.active {
+	background-color: #17295f !important;
+}
+.thumbnail {
+	object-position: 0 0;
+	object-fit: cover;
+	width: 250px;
+	height: 200px;
+}
+
+.thumbnail2 {
+	width: 100%;
+	object-position: 50% 50%;
+	object-fit: cover;
+	height: 500px;
+}
+
+#slogan1 {
+	background: url(../img/dance_1.jpg);
+	background-size: cover;
+}
+#slogan2 {
+	background: url(../img/shoes_1-removebg-preview.png);
+	background-size: 55%;
+	background-position: 90% 50%;
+	background-repeat: no-repeat;
+	z-index: -1;
+}
+#slogan3 {
+	background: url(../img/dance_7.jpg);
+	background-size: cover;
+}
+
+.logo-izquierda {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+	width: 150px;
+}
+
+.logo-derecha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+	width: 200px; 
+    height: auto;
+}
+.logo-izquierda-sub {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+	width: 150px;
+}
+
+.logo-derecha-sub {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+	width: 150px; 
+    height: auto;
+}
+.logo-izquierda-sub1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+	width: 150px;
+}
+
+.logo-derecha-sub1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+	width: 150px; 
+    height: auto;
+}
+
